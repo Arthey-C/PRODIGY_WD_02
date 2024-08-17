@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-box">
+    <div  class="box">
+    <div class="container">
+        <span id="hours">00</span>
+        <span>:</span>
+        <span id="mins">00</span>
+        <span>:</span>
+        <span id="sec">00</span>
+
+    </div>
+    <div class="button">
+        <button onclick="startTimer()">Start</button>
+        <button onclick="lapTimer()" >Lap</button>
+        <button onclick="resetTimer()">Reset</button>
+    </div>
+</div>
+<div id="lap"></div>
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>
